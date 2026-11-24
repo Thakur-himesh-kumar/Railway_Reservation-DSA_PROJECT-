@@ -1,0 +1,18 @@
+# Railway Reservation System data file
+# ROUTE,StationA,StationB,km
+ROUTE,Bhopal,Indore,190
+ROUTE,Bhopal,Ujjain,185
+ROUTE,Bhopal,Jabalpur,330
+ROUTE,Bhopal,Nagpur,350
+ROUTE,Indore,Ujjain,55
+ROUTE,Indore,Ratlam,135
+ROUTE,Jabalpur,Nagpur,270
+ROUTE,Ratlam,Ujjain,80
+# TRAIN,id,name,source,destination,departure,fare,capacity
+TRAIN,T101,Malwa Express,Indore,Bhopal,06:30,350.0,2
+TRAIN,T102,Shatabdi Express,Indore,Bhopal,17:45,720.0,3
+TRAIN,T103,Avantika Express,Indore,Ujjain,08:15,120.0,3
+TRAIN,T104,Narmada Express,Bhopal,Jabalpur,21:00,410.0,2
+TRAIN,T105,Vidarbha Express,Bhopal,Nagpur,11:20,480.0,2
+TRAIN,T106,Ratlam Passenger,Indore,Ratlam,05:50,95.0,3
+# TICKET,ticketId,passenger,trainId,status
